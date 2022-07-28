@@ -1,185 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Title for my website -->
-    <title>Programming iSchool: A hub for Learning Programming</title>
-    <!-- Link for adding favicon in my website -->
-    <link
-      rel="shortcut icon"
-      href="images/favicon/programmer-icon-23.jpeg"
-      type="image/x-icon"
-    />
-    <!-- Font awesome link -->
-    <script src="https://kit.fontawesome.com/4b6499ef0a.js" crossorigin="anonymous"></script>
-    <!-- CSS Framework Bootstrap connecting link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- Header start from here -->
-    <header class="container">
-      <!-- Navigation bar -->
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand pt-2" href="#">
-            <img
-              src="images/nav-icon/codeschool.svg"
-              alt=""
-              width="40"
-              height="30"
-              class="d-inline-block align-text-top"
-            />
-            Programming iSchool
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Courses</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Best Deals</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Register Now</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Title for my website -->
+  <title>Programming iSchool: A hub for Learning Programming</title>
+  <!-- Link for adding favicon in my website -->
+  <link rel="shortcut icon" href="images/favicon/programmer-icon-23.jpeg" type="image/x-icon" />
+  <!-- Font awesome link -->
+  <script src="https://kit.fontawesome.com/4b6499ef0a.js" crossorigin="anonymous"></script>
+  <!-- CSS Framework Bootstrap connecting link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Header start from here -->
+  <header class="container">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand pt-2" href="#">
+          <img src="images/nav-icon/codeschool.svg" alt="" width="40" height="30"
+            class="d-inline-block align-text-top" />
+          Programming iSchool
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Best Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-      </nav>
-      <!-- Image slider -->
-      <section class="container my-5">
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-bs-ride="false"
-        >
-          <div class="carousel-inner h-75">
-            <div class="carousel-item active">
-              <img
-                src="images/cover/edited/cover-1.png"
-                class="d-block img-fluid"
-                alt="..."
-              />
-              <div
-                class="carousel-caption h-100 d-flex justify-content-center align-items-center"
-              >
-                <div class="w-75 sm-w-100 md-w-auto">
-                  <h1>Get Started Digital</h1>
-                  <h1>Learning</h1>
-                  <p>
-                    Accelerate your career in IT with an online digital skills
-                    course in everything from scratch to coding and beyond.
-                  </p>
-                  <div class="btn btn-primary">Find your course</div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/cover/cover-2.jpg"
-                class="d-block img-fluid"
-                alt="..."
-              />
-                <div
-                  class="carousel-caption h-100 d-flex justify-content-center align-items-center"
-                >
-                  <div class="w-75 sm-w-100 md-w-auto">
-                    <h1>Get Started Digital</h1>
-                    <h1>Learning</h1>
-                    <p>
-                      Accelerate your career in IT with an online digital skills
-                      course in everything from scratch to coding and beyond.
-                    </p>
-                    <div class="btn btn-primary">Find your course</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="images/cover/edited/cover-3.png"
-                class="d-block img-fluid"
-                alt="..."
-              />
-              <div
-                class="carousel-caption h-100 d-flex justify-content-center align-items-center"
-              >
-                <div class="w-75 sm-w-auto md-w-auto">
-                  <h1>Get Started Digital</h1>
-                  <h1>Learning</h1>
-                  <p>
-                    Accelerate your career in IT with an online digital skills
-                    course in everything from scratch to coding and beyond.
-                  </p>
-                  <div class="btn btn-primary">Find your course</div>
-                </div>
+      </div>
+    </nav>
+    <!-- Image slider -->
+    <section class="container my-5">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner h-75">
+          <div class="carousel-item active">
+            <img src="images/cover/edited/cover-1.png" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+              <div class="w-75 sm-w-100 md-w-auto">
+                <h1>Get Started Digital</h1>
+                <h1>Learning</h1>
+                <p>
+                  Accelerate your career in IT with an online digital skills
+                  course in everything from scratch to coding and beyond.
+                </p>
+                <div class="btn btn-primary">Find your course</div>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <img src="images/cover/cover-2.jpg" class="d-block img-fluid" alt="..." />
+            <div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+              <div class="w-75 sm-w-100 md-w-auto">
+                <h1>Get Started Digital</h1>
+                <h1>Learning</h1>
+                <p>
+                  Accelerate your career in IT with an online digital skills
+                  course in everything from scratch to coding and beyond.
+                </p>
+                <div class="btn btn-primary">Find your course</div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </header>
-    <!-- Header ended here -->
-    <!-- Main section started here -->
-    <main class="container">
-      <!-- Popular courses -->
+        <div class="carousel-item">
+          <img src="images/cover/edited/cover-3.png" class="d-block img-fluid" alt="..." />
+          <div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+            <div class="w-75 sm-w-auto md-w-auto">
+              <h1>Get Started Digital</h1>
+              <h1>Learning</h1>
+              <p>
+                Accelerate your career in IT with an online digital skills
+                course in everything from scratch to coding and beyond.
+              </p>
+              <div class="btn btn-primary">Find your course</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      </div>
+    </section>
+  </header>
+  <!-- Header ended here -->
+  <!-- Main section started here -->
+  <main class="container my-5">
+    <!-- Popular courses start here -->
     <section class="my-5">
       <div class="d-flex justify-content-center">
         <div class="w-50 text-center">
           <h2>Discover Our Popular</h2>
           <h2>Courses</h2>
-          <p class="text-secondary">We focus on simplicity. Programming tutorials and examples written in simple, understandable language for extremly beginners.</p>
+          <p class="text-secondary">We focus on simplicity. Programming tutorials and examples written in simple,
+            understandable language for extremly beginners.</p>
         </div>
       </div>
       <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4 my-5">
@@ -190,7 +136,8 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $20</h6>
             </div>
           </div>
@@ -202,7 +149,8 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Javascript Basic to advanced</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $40</h6>
             </div>
           </div>
@@ -214,7 +162,8 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Fullstack Web Development</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $75</h6>
             </div>
           </div>
@@ -226,7 +175,8 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Digital Marketing</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $17.5</h6>
             </div>
           </div>
@@ -238,7 +188,8 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Photography Basic Rules</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $7.5</h6>
             </div>
           </div>
@@ -250,16 +201,54 @@
             </div>
             <div class="card-body p-4">
               <h5 class="card-title">Motion Graphics</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
               <h6 class="text-primary">Price: $15</h6>
             </div>
           </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <a href=""><div class="btn btn-primary btn-lg">See More Courses</div></a>
+        <a href="">
+          <div class="btn btn-primary btn-lg">See More Courses</div>
+        </a>
       </div>
     </section>
+    <!-- Popular courses ended here -->
+    <!-- Ready to Join started here -->
+    <section class="bg-primary rounded d-flex p-5 justify-content-between align-items-center">
+      <div class="w-50">
+        <h1 class="text-white">Ready to Join?</h1>
+        <p class="text-light fw-light">Before enrolling in any course, it's important to check the outcomes of the
+          program— upon course completion.</p>
+      </div>
+      <!-- Modal Trogoller -->
+      <div class="bg-light rounded">
+        <button type="button" class="btn btn-white btn-outline-primary btn-lg border-0" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          Register Now
+        </button>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Registration is going on. Be hurry and join the course quick.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ready to Join ended here -->
     <!-- FAQ started here -->
     <section class="my-5 d-flex flex-column align-items-center">
       <div class="my-5">
@@ -269,62 +258,88 @@
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button h3 fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <button class="accordion-button h3 fs-5" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
                 What is the difference between Flexbox and Grid?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
               <div class="accordion-body text-secondary">
-                The basic difference between <strong>CSS Grid Layout</strong> and <strong>CSS Flexbox Layout</strong> is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                The basic difference between <strong>CSS Grid Layout</strong> and <strong>CSS Flexbox Layout</strong> is
+                that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for
+                two-dimensional layout - rows, and columns at the same time.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
                 What is the difference between Tailwind and Bootstrap?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
               <div class="accordion-body text-secondary">
-                The significant difference between <strong>Tailwind CSS</strong> and <strong>Bootstrap CSS</strong> is that Tailwind offers predesigned widgets to build a site from scratch with fast UI development, while Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                The significant difference between <strong>Tailwind CSS</strong> and <strong>Bootstrap CSS</strong> is
+                that Tailwind offers predesigned widgets to build a site from scratch with fast UI development, while
+                Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI
+                kit.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
                 What is CSS Box Model?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
               <div class="accordion-body text-secondary">
                 In CSS, the term "box model" is used when talking about design and layout.
-                The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins,
+                borders, padding, and the actual content.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour">
                 What is a semantic tag?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour">
               <div class="accordion-body text-secondary">
-                The HTML semantics refers to <strong>the tags that provide meaning to an HTML page rather than just presentation</strong>. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                The HTML semantics refers to <strong>the tags that provide meaning to an HTML page rather than just
+                  presentation</strong>. It makes HTML more comprehensible by better defining the different sections and
+                layout of web pages.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              <button class="accordion-button h3 fs-5 collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive">
                 What is the difference between Front-end and Back-end Web Development?
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive">
               <div class="accordion-body">
-                Front and back end developers work on different sides of a website. Front end development is programming which focuses on the visual elements of a website or app that a user will interact with (the client side). Meanwhile, back end development focuses on the side of a website users can't see (the server side).
+                Front and back end developers work on different sides of a website. Front end development is programming
+                which focuses on the visual elements of a website or app that a user will interact with (the client
+                side). Meanwhile, back end development focuses on the side of a website users can't see (the server
+                side).
               </div>
             </div>
           </div>
@@ -336,36 +351,37 @@
     <section class="my-5 d-none d-lg-block">
       <h1 class="text-center mb-5">Trusted by over 800+ companies</h1>
       <div class="d-flex justify-content-between">
-          <img class="img-fluid" src="images/company/company-1.png" alt="">
-          <img class="img-fluid" src="images/company/company-2.png" alt="">
-          <img class="img-fluid" src="images/company/company-3.png" alt="">
-          <img class="img-fluid" src="images/company/company-4.png" alt="">
-          <img class="img-fluid" src="images/company/company-5.png" alt="">
-          <img class="img-fluid" src="images/company/company-6.png" alt="">
-        </div>
+        <img class="img-fluid" src="images/company/company-1.png" alt="">
+        <img class="img-fluid" src="images/company/company-2.png" alt="">
+        <img class="img-fluid" src="images/company/company-3.png" alt="">
+        <img class="img-fluid" src="images/company/company-4.png" alt="">
+        <img class="img-fluid" src="images/company/company-5.png" alt="">
+        <img class="img-fluid" src="images/company/company-6.png" alt="">
+      </div>
       </div>
     </section>
     <!-- Trusted companies started here -->
-    </main>
-    <!-- Main section ended here -->
-    <!-- Footer started from here -->
-    <footer class="p-3 bg-dark">
-      <div class="d-flex flex-column justify-content-center">
-        <div class="text-center">
-          <br>
-          <h1 class="text-light">Programming iSchool</h1>
+  </main>
+  <!-- Main section ended here -->
+  <!-- Footer started from here -->
+  <footer class="p-3 bg-dark">
+    <div class="d-flex flex-column justify-content-center">
+      <div class="text-center">
+        <br>
+        <h1 class="text-light">Programming iSchool</h1>
         <br>
         <p class="text-white">Join our newsletter for the latest updates.</p>
         <form class="d-flex justify-content-center">
           <div class="input-group w-25">
-            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
             <a href=""><button class="btn btn-primary" type="button" id="button-addon2">Join</button></a>
           </div>
         </form>
         <br>
-        </div>
-        <hr class="text-white">
-        <div class="text-center">
+      </div>
+      <hr class="text-white">
+      <div class="text-center">
         <br>
         <p class="text-white">Office 161/B, Amberkhana, Sylhet, Bangladesh</p>
         <p class="text-white">© Programming iSchool Pvt. Ltd. All rights reserved.</p>
@@ -375,15 +391,14 @@
         <span class="mx-3"><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></span>
         <span class="mx-3"><a href=""><i class="fa-brands fa-youtube fa-2x"></i></a></span>
         <span class="mx-3"><a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a></span>
-        </div>
       </div>
-    </footer>
-    <!-- Footer ended here -->
-    <!-- Javascript connecting link -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <!-- Footer ended here -->
+  <!-- Javascript connecting link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
